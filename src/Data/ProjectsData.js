@@ -18,6 +18,13 @@ const projectsData = [
         description: 'Creative apple website redesighn work with HTML and CSS.',
         image: `${process.env.PUBLIC_URL}/MacBook.jpg`, 
         githubLink: 'https://github.com/ZhevairovskiBojan/HTML_CSS-Apple-Site'
+    },
+
+    {
+        title: 'Portfolio Project',
+        description: 'My Portfolio Web Site Project, Technologies: HTML, CSS, JavaScript, React ',
+        image: `${process.env.PUBLIC_URL}/1.png`, 
+        githubLink: 'https://github.com/ZhevairovskiBojan/HTML_CSS-Apple-Site'
     }
 
     
