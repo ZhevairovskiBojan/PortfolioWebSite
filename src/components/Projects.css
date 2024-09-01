@@ -1,0 +1,64 @@
+/* src/components/Projects.css */
+.projects-section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background: linear-gradient(135deg, #93b1cb,  #019d9d); /* Gradient background */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: background 0.5s ease;
+}
+
+.projects-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* White text color to contrast with background */
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.project-card {
+    background-color: #ffffff; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.5s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #ffefc1; /* Subtle color change on hover */
+}
+
+.project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+
+.project-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.project-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #008080;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.project-link:hover {
+    background-color: #005f5f;
+}

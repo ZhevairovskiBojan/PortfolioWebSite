@@ -1,0 +1,47 @@
+/* src/components/Contact.css */
+.contact-section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    background-color: #ffefc1;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+    color: #005f5f;
+}
+
+.contact-section p {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-section a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+.contact-section a:hover {
+    color: #ff4040;
+}
+
+.contact-section a.download-link {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #008080;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.contact-section a.download-link:hover {
+    background-color: #005f5f;
+}
+    
